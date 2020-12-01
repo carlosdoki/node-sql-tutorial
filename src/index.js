@@ -1,10 +1,10 @@
 "use strict";
 require("appdynamics").profile({
-    controllerHostName: 'kroton.saas.appdynamics.com',
+    controllerHostName: '',
     controllerPort: 443,
     controllerSslEnabled: true,  // Set to true if controllerPort is SSL
-    accountName: 'kroton',
-    accountAccessKey: 'rztgf82cw4lp', //required
+    accountName: '',
+    accountAccessKey: '', //required
     applicationName: 'zTeste',
     tierName: 'Teste',
     nodeName: 'Teste'
